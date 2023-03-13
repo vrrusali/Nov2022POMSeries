@@ -8,7 +8,7 @@ public class Orderpage {
 		
 		public void getOrder() 
 			{
-			System.out.println("get Order");
+			System.out.println("get Order Page details");
 		}
 
 	}
