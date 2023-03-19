@@ -28,7 +28,7 @@ public class AccountsPage {
 	
 	public String getAccountsPageTitle() {
 		String title= eleUtil.waitForTitleIsAndFetch(AppConstants.DEFAULT_SMALL_TIME_OUT, AppConstants.ACCOUNTS_PAGE_TITLE_VALUE);
-		System.out.println("Acc Page Title: "+title);
+		System.out.println("Acc Page Title is: "+title);
 		return title;
 	}
 	
